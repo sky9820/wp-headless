@@ -1,13 +1,13 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
-// import Hello from './components/Hello';
-import Posts from './components/pages/Posts';
+import Pages from './components/pages/pages';
+
 
 function App() {
   return (
-    <div className="App">
-      <Posts/>
-    </div>
+    <>
+      <Pages />
+    </>
   );
 }
 
